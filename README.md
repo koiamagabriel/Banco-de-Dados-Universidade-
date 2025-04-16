@@ -78,14 +78,33 @@ Gabriel Koiama - RA: 22.125.067-3
 
 ## Como executar o projeto
 
-
 ### Etapa 1: Criar uma conta no Supabase
 - Acesse: https://supabase.com
   - Clique em "Start your project" ou "Sign Up"
-  - Crie sua conta (pode usar GitHub ou email).
-  
+  - Crie sua conta (pode usar GitHub ou email)
+
 ### Etapa 2: Criar um novo projeto
 - Após o login, clique em "New Project":
-  - Escolha um nome e senha para o banco de dados.
-  - Selecione a região e clique em "Create project".
+  - Escolha um nome e senha para o banco de dados
+  - Selecione a região e clique em "Create project"
 
+### Etapa 3: Criar as tabelas no Supabase
+- No painel do projeto, vá até a aba "SQL Editor"
+  - Cole os scripts DDL fornecidos no repositório
+  - Execute para criar todas as tabelas do banco
+
+### Etapa 4: Instalar o Python
+- Acesse: https://www.python.org/downloads/
+  - Baixe a versão mais recente
+  - Durante a instalação, marque a opção "Add Python to PATH"
+
+
+### Etapa 5: Instalar o Visual Studio Code
+- Acesse: https://code.visualstudio.com/
+  - Baixe e instale o VS Code
+  - Instale a extensão "Python" pelo menu de extensões
+  - Crie uma pasta para o projeto e abra no VS Code
+
+### Etapa 6: Instalar as bibliotecas necessárias
+- No terminal do VS Code, execute:
+  pip install supabase
