@@ -49,13 +49,13 @@ Este repositório contém o desenvolvimento completo de um banco de dados relaci
 
 ## Passo a Passo do Desenvolvimento
 
-### Etapa 1: Criação das Tabelas
-- Estruturação das entidades com chaves primárias e estrangeiras
-- Definição das regras de integridade referencial
+### Etapa 1: Modelagem dos Dados
+Na primeira etapa, começamos criando um modelo DER na plataforma ERD Plus, facilitando assim, a nossa organização e, a propria plataforma, permite transformar do modelo DER para o modelo Relacional sem precisar buscar fontes externar para a continuidade do nosso projeto.
 
-### Etapa 2: Modelagem dos Dados
-- Criação do DER
-- Conversão para modelo relacional
+### Etapa 2: Criação das Tabelas
+
+
+
 
 ### Etapa 3: Inserção de Dados
 - Geração de dados aleatórios realistas com Python + Supabase
