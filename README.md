@@ -27,7 +27,7 @@ Este repositório contém o desenvolvimento completo de um banco de dados relaci
 ---
 
 
-## Estrutura do Projeto:
+# Estrutura do Projeto:
 
 ## Entidades e Relacionamentos
 
