@@ -80,7 +80,7 @@ Gabriel Koiama - RA: 22.125.067-3
 
 
 ### Etapa 1: Criar uma conta no Supabase
-Acesse: https://supabase.com
+- Acesse: https://supabase.com
 
 Clique em "Start your project" ou "Sign Up".
 
