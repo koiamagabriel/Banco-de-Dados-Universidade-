@@ -53,7 +53,7 @@ Este repositório contém o desenvolvimento completo de um banco de dados relaci
 Na primeira etapa, começamos criando um modelo DER na plataforma ERD Plus, facilitando assim, a nossa organização e, a propria plataforma, permite transformar do modelo DER para o modelo Relacional sem precisar buscar fontes externar para a continuidade do nosso projeto.
 
 ### Etapa 2: Criação das Tabelas
-
+Na segunda etapa, com base nos modelos criados na etapa 1
 
 
 
