@@ -27,24 +27,56 @@ Este repositório contém o desenvolvimento completo de um banco de dados relaci
 ---
 
 
-## 📐 Estrutura do Projeto
+## Estrutura do Projeto:
 
+## Entidades e Relacionamentos
+
+| Tabela        | Descrição |
+|---------------|-----------|
+| `aluno`       | Alunos com nome, RA, curso e TCC |
+| `professor`   | Professores vinculados a departamentos |
+| `disciplina`  | Disciplinas oferecidas pelos cursos |
+| `curso`       | Cursos e seus coordenadores |
+| `departamento`| Departamentos da universidade |
+| `tcc`         | Temas de TCC associados a professores e departamentos |
+| `participa`   | Relação entre professores e departamentos |
+| `possui`      | Relaciona disciplinas com cursos |
+| `cursa`       | Disciplinas que os alunos estão cursando |
+| `historico`   | Registro de notas, semestre e situação dos alunos |
+| `historico_disciplina` | Relacionamento N:N entre histórico e disciplina |
 
 1. Descrição do Projeto:
 
+## Passo a Passo do Desenvolvimento
+
+### Etapa 1: Criação das Tabelas
+- Estruturação das entidades com chaves primárias e estrangeiras
+- Definição das regras de integridade referencial
+
+### Etapa 2: Modelagem dos Dados
+- Criação do DER
+- Conversão para modelo relacional
+
+### Etapa 3: Inserção de Dados
+- Geração de dados aleatórios realistas com Python + Supabase
+- Utilização de `UPSERT` para evitar duplicações
+
+### Etapa 4: Lógica de Vínculo
+- Cada aluno é vinculado a:
+  - 1 curso
+  - 1 tema de TCC
+  - 1 histórico
+  - De 3 a 5 disciplinas compatíveis com o seu curso
+- Regras de preenchimento:
+  - Cada disciplina com 1 a 5 alunos
+  - Cada curso com 3 a 10 alunos
+
+### Etapa 5: Consultas SQL Avançadas
+- Join entre tabelas para gerar:
+  - Situação dos alunos (Aprovado/Reprovado)
+  - Cálculo de semestre real
+  - Listagem de TCCs por departamento
    
 
-``
 
 `Detalhamento do Passo a passo: Membro da empresa entrando na plataforma`
-
-`Dados de Saída: Tela de cadastro`
-
-***
-2. Realizar Login:
-
-`Dados de Entrada: Email e Senha`
-
-`Detalhamento do Passo a passo: Membro da empresa vai colocar o email e senha para efetuar o login`
-
-`Dados de Saída: Vai escolher processo de solicitação ou Monitoramento`
