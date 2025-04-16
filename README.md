@@ -108,3 +108,17 @@ Gabriel Koiama - RA: 22.125.067-3
 ### Etapa 6: Instalar as bibliotecas necessárias
 - No terminal do VS Code, execute:
   - pip install supabase
+ 
+### Etapa 7: Configurar a conexão com o Supabase
+- Siga as instruções do link a seguir:
+  -  https://supabase.com/docs/reference/python/introduction
+
+### Etapa 8: Executar o Projeto
+- Execute os scripts Python fornecidos neste repositório para inserir dados e fazer consultas
+  -  Acompanhe os dados pelo painel do Supabase (aba "Table Editor")
+  -  Utilize comandos SQL ou Python para validar os relacionamentos e a estrutura
+
+
+
+
+
