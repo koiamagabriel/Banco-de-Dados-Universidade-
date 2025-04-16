@@ -76,4 +76,20 @@ Gabriel Koiama - RA: 22.125.067-3
   - Listagem de TCCs por departamento
    
 
+## Como executar o projeto
 
+
+### Etapa 1: Criar uma conta no Supabase
+Acesse: https://supabase.com
+
+Clique em "Start your project" ou "Sign Up".
+
+Crie sua conta (pode usar GitHub ou email).
+
+Após o login, clique em "New Project":
+
+Escolha um nome e senha para o banco de dados.
+
+Selecione a região e clique em "Create project".
+
+Aguarde alguns minutos até o Supabase criar seu banco de dados.
