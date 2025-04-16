@@ -57,7 +57,7 @@ Gabriel Koiama - RA: 22.125.067-3
 
 
 ### Etapa 3: Inserção de Dados
-`Com a estrutura do banco definida, passamos para a fase de inserção dos dados. Utilizamos Python em conjunto com o Supabase para gerar informações aleatórias, mas com características realistas — como nomes de alunos, professores, temas de TCC, notas e vínculos entre as tabelas. Para garantir que os dados fossem inseridos de forma segura e sem repetições, aplicamos a lógica de UPSERT, que insere novos registros ou atualiza os existentes automaticamente. Essa abordagem trouxe praticidade ao processo e ajudou a manter a integridade dos dados desde o início.`
+`Com a estrutura feita na etapa anterior, passamos para a fase de inserção dos dados. Utilizamos Python em conjunto com o Supabase para gerar informações aleatórias, como nomes de alunos, professores, temas de TCC, notas e vínculos entre as tabelas. Para garantir que os dados fossem inseridos de forma segura e sem repetições, aplicamos a lógica de UPSERT, que insere novos registros ou atualiza os existentes automaticamente.`
 
 ### Etapa 4: Lógica de Vínculo
 - Cada aluno é vinculado a:
