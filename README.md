@@ -107,4 +107,4 @@ Gabriel Koiama - RA: 22.125.067-3
 
 ### Etapa 6: Instalar as bibliotecas necessárias
 - No terminal do VS Code, execute:
-  pip install supabase
+  - pip install supabase
