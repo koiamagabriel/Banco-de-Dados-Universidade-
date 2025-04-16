@@ -45,21 +45,19 @@ Gabriel Koiama - RA: 22.125.067-3
 | `historico`   | Registro de notas, semestre e situação dos alunos |
 | `historico_disciplina` | Relacionamento N:N entre histórico e disciplina |
 
-1. Descrição do Projeto:
 
 ## Passo a Passo do Desenvolvimento
 
 ### Etapa 1: Modelagem dos Dados
-`Na primeira etapa, começamos criando um modelo DER na plataforma ERD Plus, facilitando assim, a nossa organização e, a propria plataforma, permite transformar do modelo DER para o modelo Relacional sem precisar buscar fontes externar para a continuidade do nosso projeto.`
+`Nesta etapa, utilizamos a plataforma ERD Plus para criar o Modelo Entidade-Relacionamento (DER) do sistema. A ferramenta facilitou a visualização e organização das entidades e relacionamentos, além de permitir a conversão direta para o modelo relacional. O objetivo foi representar de forma clara a estrutura acadêmica da universidade, mapeando alunos, cursos, professores, disciplinas, TCCs e departamentos.`
 
 ### Etapa 2: Criação das Tabelas
-`Na segunda etapa, com base nos modelos criados na etapa 1, criamos um DDL que permitiu criar essas tabelas no supabase, oque permitiu conectarmos essa tabela com o Visual Studio Code para a criação de códigos em Python.`
+`Com o modelo relacional pronto, desenvolvemos os scripts DDL para criação das tabelas no Supabase. Essa etapa permitiu integrar o banco de dados ao Visual Studio Code, possibilitando o uso de Python para manipulação e inserção de dados.`
 
 
 
 ### Etapa 3: Inserção de Dados
-- Geração de dados aleatórios realistas com Python + Supabase
-- Utilização de `UPSERT` para evitar duplicações
+`Com a estrutura do banco definida, passamos para a fase de inserção dos dados. Utilizamos Python em conjunto com o Supabase para gerar informações aleatórias, mas com características realistas — como nomes de alunos, professores, temas de TCC, notas e vínculos entre as tabelas. Para garantir que os dados fossem inseridos de forma segura e sem repetições, aplicamos a lógica de UPSERT, que insere novos registros ou atualiza os existentes automaticamente. Essa abordagem trouxe praticidade ao processo e ajudou a manter a integridade dos dados desde o início.`
 
 ### Etapa 4: Lógica de Vínculo
 - Cada aluno é vinculado a:
@@ -79,4 +77,3 @@ Gabriel Koiama - RA: 22.125.067-3
    
 
 
-`Detalhamento do Passo a passo: Membro da empresa entrando na plataforma`
