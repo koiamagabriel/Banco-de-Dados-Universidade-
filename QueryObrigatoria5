@@ -1,0 +1,8 @@
+SELECT 
+    p.nome AS nome_professor,
+    COALESCE(dep.nome, 'nenhum') AS nome_departamento,
+    COALESCE(c.nome, 'nenhum') AS nome_curso
+FROM professores p
+LEFT JOIN departamentos dep ON p.id_professor = dep.id_chefe
+LEFT JOIN cursos c ON p.id_professor = c.id_coordenador
+ORDER BY p.nome;
