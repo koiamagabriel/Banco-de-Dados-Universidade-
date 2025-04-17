@@ -15,7 +15,8 @@ Gabriel Koiama - RA: 22.125.067-3
 
 
 ### Modelo Entidade-Relacionamento (DER)
-[Uploading Universidades.erdplus…]()
+![Imagem do WhatsApp de 2025-04-16 à(s) 23 01 58_e7c6fa68](https://github.com/user-attachments/assets/2e64c10e-4a57-4759-b184-7d02b3b6b90e)
+
 
 
 
