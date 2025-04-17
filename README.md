@@ -36,17 +36,16 @@ Gabriel Koiama - RA: 22.125.067-3
 
 | Tabela        | Descrição |
 |---------------|-----------|
-| `aluno`       | Alunos com nome, RA, curso e TCC |
-| `professor`   | Professores vinculados a departamentos |
-| `disciplina`  | Disciplinas oferecidas pelos cursos |
-| `curso`       | Cursos e seus coordenadores |
-| `departamento`| Departamentos da universidade |
-| `tcc`         | Temas de TCC associados a professores e departamentos |
-| `participa`   | Relação entre professores e departamentos |
-| `possui`      | Relaciona disciplinas com cursos |
-| `cursa`       | Disciplinas que os alunos estão cursando |
-| `historico`   | Registro de notas, semestre e situação dos alunos |
-| `historico_disciplina` | Relacionamento N:N entre histórico e disciplina |
+| `alunos`       | Registra informações sobre os alunos, incluindo nome, idade, e-mail, e o curso em que estão matriculados. |
+| `professores`   | Informações sobre os professores, incluindo nome, e-mail e o departamento ao qual pertencem. |
+| `disciplinas`  | Contém informações sobre as disciplinas oferecidas, incluindo o nome da disciplina, carga horária e um identificador único |
+| `cursos`       | Informações sobre os cursos oferecidos pela universidade, incluindo o nome do curso, o departamento e o coordenador. |
+| `departamento`| Contém informações sobre os departamentos da universidade, como o nome do departamento e o chefe. |
+| `tccs`         | Armazena os temas de TCC dos alunos, associando cada TCC a um professor orientador |
+| `tcc_alunos`   | Relaciona alunos com os TCCs que estão orientando, criando uma associação N:N entre alunos e seus TCCs. |
+| `curso_disciplina`       | Relaciona cursos e disciplinas, associando cada curso com as disciplinas que ele oferece, incluindo o período em que são lecionadas. |
+| `disciplinaslecionadas`   | Relaciona professores às disciplinas que lecionam, incluindo o serial da disciplina e o professor responsável |
+| `historicoescolar` | Registra o desempenho dos alunos nas disciplinas que estão cursando, incluindo nota, semestre e status (aprovado ou reprovado) |
 
 
 ## Passo a Passo do Desenvolvimento
