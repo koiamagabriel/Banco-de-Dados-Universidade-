@@ -1,1 +1,1 @@
-
+As queries 18, 9, 22, 16 e 30 vão estar sujeitas a disponibilidade de Departamentos e de Cursos, dados esses que vão ser gerados de maneira aleatória no nosso código.
