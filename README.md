@@ -9,7 +9,7 @@ João Pedro Peterutto - RA: 22.125.066-5
 Gabriel Koiama - RA: 22.125.067-3
 ***
 
-`Este repositório contém o desenvolvimento completo de um banco de dados relacional para gerenciamento acadêmico de uma universidade. O projeto foi construído com base em um modelo realista, integrando tabelas como alunos, professores, disciplinas, cursos, TCCs e históricos escolares.`
+`Este repositório contém o desenvolvimento completo de um banco de dados relacional para gerenciamento acadêmico de uma universidade. O projeto foi construído com base em um modelo realista, integrando tabelas como alunos, professores, disciplinas, cursos, TCCs e históricos escolares, gerando os dados das tabelas de alunos, professores, histórico escolar, cursos e departamentos de maneira aleatória.`
 
 ---
 
