@@ -15,6 +15,7 @@ Gabriel Koiama - RA: 22.125.067-3
 
 
 ### Modelo Entidade-Relacionamento (DER)
+[Uploading Universidades.erdplus…]()
 
 
 
@@ -22,6 +23,7 @@ Gabriel Koiama - RA: 22.125.067-3
 
 ### Modelo Relacional
 
+![Esquema Relacional - Supabase](https://github.com/user-attachments/assets/d3226c87-9c6a-4d32-a805-4a74e3864185)
 
 
 ---
